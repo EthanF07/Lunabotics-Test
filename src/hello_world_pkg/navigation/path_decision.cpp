@@ -32,6 +32,7 @@ Path chosen_path(Path map_list[]) {
     for (int i = 0; i<=3; i++){
         if (map_list[i].Get_Cost() < lowest_cost){
             ideal_path() = map_list[i];
+            lowest_cost = map_list[i].Get_Cost();
         }
         else {
             
