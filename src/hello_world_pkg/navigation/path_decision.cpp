@@ -5,6 +5,7 @@
 
 // Temp class to demonstrate Paths with cost variables tied to them
 // Likely will have a provided Path object from Algorithm later
+// Already done by Dstar woops
 class Path {
 private:
     int Cost;
